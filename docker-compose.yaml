@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  test:
+    image: "polarsdates"
+    volumes:
+      - .:/app
+    command: python3 src/main.py
