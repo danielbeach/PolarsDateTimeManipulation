@@ -13,3 +13,7 @@ The full blog post is here https://www.confessionsofadataguy.com/date-and-dateti
 - pull the quarter out of a date or datetime object.
 - get the diff between two date or datetime objects.
 - Add an arbitrary number of days to a date or datetime object.
+
+- ## Run the code ...
+- Build Docker image first `docker build . --tag=polarsdates`
+- Run the code `docker-compose up test`
